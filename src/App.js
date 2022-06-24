@@ -1,8 +1,11 @@
-import React from "react";
-import Header from './Header';
-import Main from "./Main";
-import Footer from "./Footer";
-import data from "./data.json"
+import React from 'react';
+import Header from './Header.js';
+import Main from './Main.js';
+import Footer from './Footer.js';
+import data from './data.json'
+import Modal from 'react-bootstrap/Modal'
+import SelectedBeast from './SelectedBeast.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './App.css';
 
@@ -13,8 +16,9 @@ class App extends React.Component {
       showModal: false,
       pickedBeast: '',
       
-    }
-  }
+
+    };
+  };
 
   handleOnHide = () => {
     this.setState({
@@ -26,27 +30,28 @@ class App extends React.Component {
     this.setState({
       showModal: true,
       pickedBeast: beast,
+
     })
-  }
+  };
+
   
-  
+
   render() {
-    return ( 
+    return (
       <>
-      <Header/>
-      <Main data= {data}
-      openModal = {this.openModal}
-      />
-      <selectedBeast
-      showModal = {this.state.showModal}
-      hideModal = {this.handleOnHide}
-      pickedBeast = {this.state.pickedBeast}
-      />
-      
-      <Footer/>
-   
-    </>
-  );
+        <Header/>
+        <Main data= {data}
+          openModal = {this.openModal}
+        />
+        <SelectedBeast
+          showModal = {this.state.showModal}
+          hideModal = {this.handleOnHide}
+          pickedBeast = {this.state.pickedBeast}
+        />
+       
+        <Footer/>
+      </>
+    );
   }
 }
 
