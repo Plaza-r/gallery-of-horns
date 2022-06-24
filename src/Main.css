@@ -2,4 +2,5 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    color: rgb(235, 113, 0);
 }
