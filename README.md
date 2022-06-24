@@ -70,6 +70,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+## Number and name of feature: Lab02 Real state  and props
+
+## Estimate of time needed to complete: ___8 hours__
+
+## Start time: ___1300__
+
+## Finish time: __2200___
+
+## Actual time needed to complete: ___7 hours__
+
+
 # Number and name of feature: ________________________________
 
 # Estimate of time needed to complete: ___8 hours__
@@ -79,3 +90,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Finish time: ___23000__
 
 # Actual time needed to complete: ___8 hours__
+
